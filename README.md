@@ -32,15 +32,15 @@ We provide the high-resolution figures and tables referenced in our author respo
 
 ### Figure R1: Empirical Proof of Convergence (Gradient Descent vs. Grid Search)
 *Referenced in response to Q2. Proves that our 1D Grid Search precisely locates the global optimum $\alpha^*=0.50$.*
-![Figure R1](Figure_R1.pdf)
+![Figure R1](Figure_R1.jpg)
 
 ### Figure R2: Strict Optimal $\alpha^*$ Comparison at Extreme Scale (K=100)
 *Referenced in response to Q4. Demonstrates the severe vulnerability of pairwise constraints and the superiority of our Aggregation method.*
-![Figure R2](Figure_R2.pdf)
+![Figure R2](Figure_R2.jpg)
 
 ### Figure R3: The Corrected True Geodesic Interpolation
 *Referenced in response to Q4. The corrected geodesic path perfectly passes through the origin and flawlessly intersects all intermediate topological nodes.*
-![Figure R3](Figure_R3.pdf)
+![Figure R3](Figure_R3.jpg)
 
 
 
