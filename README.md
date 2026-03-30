@@ -3,6 +3,23 @@
 
 We provide the high-resolution figures and tables referenced in our author response below to address the reviewers' questions comprehensively.
 
+## 📌 Part 1: Responses to Reviewer y83s
+
+### Figure R1: The "Double Curse" Test ($N=1000, D=2000, K=10$)
+*Referenced in response to Q1 (L1). Demonstrates our Aggregation method's robust $\mathcal{O}(1)$ performance in extreme high-dimensional sparse regimes where up to 99.5% of input dimensions are pure noise, overcoming the distance metric collapse that plagues Pairwise matching.*
+![Figure R1](figure_r1.png)
+
+### Figure R2: Robustness to Proxy/Noisy Confounders ($K=10$)
+*Referenced in response to Q2. Illustrates that our Aggregation strategy matches the strong resilience of complex Pairwise/One-vs-All constraints against unobserved/noisy confounding, but achieves this without the prohibitive $\mathcal{O}(K^2)$ combinatorial bottleneck.*
+![Figure R2](figure_r2.png)
+
+### Figure R3: Mechanism Heterogeneity Stress Test
+*Referenced in response to L2. Explicitly maps the boundary conditions of our shared manifold hypothesis. It confirms that our shared models excel when a structural foundation exists ($\eta < 1$), but correctly highlights that cross-family extrapolation degrades when causal mechanisms become fundamentally disjoint ($\eta = 1$).*
+![Figure R3](figure_r3.png)
+
+---
+
+## 📌 Part 2: Responses to Reviewer H8X7
 ### Table R1: Empirical Comparison with Traditional Baselines
 *Referenced in response to Reviewer H8X7 (Q1). Traditional methods degrade severely in high-dimensional, multi-treatment regimes.*
 
@@ -13,14 +30,20 @@ We provide the high-resolution figures and tables referenced in our author respo
 | Base Model (Unadjusted) | 0.796 | 1.029 |
 | **Ours (Aggregation, $\alpha^*$)** | **0.722** | **0.989** |
 
-### Figure R6: Empirical Proof of Convergence (Gradient Descent vs. Grid Search)
-*Referenced in response to Reviewer H8X7 (Q2).*
-![Figure R6](fig_r6_gd.png)
-*Caption: Continuous GD trajectory successfully descending the validation landscape and converging to exactly α* = 0.50, matching our discrete Grid Search optimum.*
+### Figure R1: Empirical Proof of Convergence (Gradient Descent vs. Grid Search)
+*Referenced in response to Q2. Proves that our 1D Grid Search precisely locates the global optimum $\alpha^*=0.50$.*
+![Figure R1](Figure_R1.pdf)
 
----
+### Figure R2: Strict Optimal $\alpha^*$ Comparison at Extreme Scale (K=100)
+*Referenced in response to Q4. Demonstrates the severe vulnerability of pairwise constraints and the superiority of our Aggregation method.*
+![Figure R2](Figure_R2.pdf)
 
-### Figure R7: Strict Optimal α* Comparison at Extreme Scale (K=100)
-*Referenced in response to Reviewer H8X7 (Q4).*
-![Figure R7](fig_r7_k100.png)
-*Caption: At K=100, the Pairwise strategy suffers severe gradient conflicts, while our Aggregation method decisively wins at a gentle α* = 0.45.*
+### Figure R3: The Corrected True Geodesic Interpolation
+*Referenced in response to Q4. The corrected geodesic path perfectly passes through the origin and flawlessly intersects all intermediate topological nodes.*
+![Figure R3](Figure_R3.pdf)
+
+
+
+
+
+
