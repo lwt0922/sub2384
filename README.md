@@ -1,8 +1,5 @@
 # icml2026-rebuttal-submission2384
 # Supplemental Figures for Submission 2384 Rebuttal
-
-We provide the high-resolution figures and tables referenced in our author response below to address the reviewers' questions comprehensively.
-
 ## 📌 Part 1: Responses to Reviewer y83s
 
 ### Figure R1: The "Double Curse" Test ($N=1000, D=2000, K=10$)
